@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:context="com.example.doasimsaying.game.TheGameActivity"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/levelsTxtV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="LEVEL 1"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scoreTxtV"
+            android:layout_width="127dp"
+            android:layout_height="33dp"
+            android:text="Score: "
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lifeTxtV"
+            android:layout_width="125dp"
+            android:layout_height="28dp"
+            android:text="Life: ❤❤❤"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/scoreTxtV" />
+
+
+        <ImageButton
+            android:id="@+id/greenBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onGreenClick"
+            android:background="@drawable/green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/yellowBtn"
+            app:layout_constraintTop_toBottomOf="@id/blueBtn"/>
+
+        <ImageButton
+            android:id="@+id/redBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onRedClick"
+            android:background="@drawable/red"
+            android:layout_marginTop="150dp"
+            app:layout_constraintBottom_toTopOf="@id/yellowBtn"
+            app:layout_constraintEnd_toStartOf="@id/blueBtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/blueBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/blue"
+            android:onClick="onBlueClick"
+            app:layout_constraintBottom_toTopOf="@id/greenBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/redBtn"
+            app:layout_constraintTop_toTopOf="@id/redBtn" />
+
+        <ImageButton
+            android:id="@+id/yellowBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onYellowClick"
+            android:background="@drawable/yellow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/greenBtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/redBtn"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

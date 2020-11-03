@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/dialog_background"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/txt_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="@string/gameover_title"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/nameTxtEd"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/gameover_enter_name"
+            android:textColorHint="@color/colorBlue"
+            android:fontFamily="cursive"
+            android:maxLength="10"
+            android:textColor="@color/colorBlue"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#3E80B4"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:text="@string/gameover_home_btn"
+                android:textColor="#5DBCD2"
+                android:fontFamily="cursive"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_scores"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:text="@string/gameover_scores_btn"
+                android:textColor="#5DBCD2"
+                android:fontFamily="cursive"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

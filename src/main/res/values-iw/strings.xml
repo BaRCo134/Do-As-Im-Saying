@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logo">תעשה כמוני!</string>
+    <string name="game_score_format">שיא: %d</string>
+    <string name="game_life_format">חיים: %s</string>
+    <string name="score_name">שם</string>
+    <string name="score_scores">שיא</string>
+    <string name="scores_title">שיאים</string>
+    <string name="scores_home_btn">דף הבית</string>
+    <string name="welcome">ברוכים הבאים</string>
+    <string name="how_to_play_btn">איך משחקים</string>
+    <string name="how_to_hide">הסתר</string>
+    <string name="main_scores_btn">שיאים</string>
+    <string name="main_music_btn">מוזיקה</string>
+    <string name="music_on">מוזיקה פועלת</string>
+    <string name="music_off">מוזיקה מושתקת</string>
+    <string name="main_play_btn">שחק!</string>
+    <string name="gameover_home_btn">דף הבית</string>
+    <string name="gameover_scores_btn">שיאים</string>
+    <string name="gameover_title">!סוף משחק!</string>
+    <string name="gameover_enter_name">הקלד את שמך</string>
+
+
+</resources>

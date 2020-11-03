@@ -1,0 +1,24 @@
+<resources>
+    <string name="logo">Do As Im Saying!</string>
+    <string name="app_name">Do As Im Saying</string>
+    <string name="game_score_format">SCORE: %d</string>
+    <string name="game_life_format">LIFE: %s</string>
+    <string name="score_name">Name</string>
+    <string name="score_scores">Score</string>
+    <string name="scores_title">Scores</string>
+    <string name="scores_home_btn">Home</string>
+    <string name="how_to_play_btn">HOW TO PLAY</string>
+    <string name="how_to_hide">HIDE</string>
+    <string name="welcome">Welcome</string>
+    <string name="main_scores_btn">SCORES</string>
+    <string name="main_music_btn">MUSIC</string>
+    <string name="music_on">music is on</string>
+    <string name="music_off">music is off</string>
+    <string name="main_play_btn">PLAY!</string>
+    <string name="gameover_home_btn">Home</string>
+    <string name="gameover_scores_btn">Scores</string>
+    <string name="gameover_title">!GAME OVER!</string>
+    <string name="gameover_enter_name">Enter your name</string>
+
+
+</resources>
